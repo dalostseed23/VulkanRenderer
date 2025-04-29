@@ -1,0 +1,7 @@
+Libraries/
+VulkanTest/x64/ 
+x64/
+.vs/
+
+*.suo
+*.user
