@@ -34,7 +34,7 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(glfw)
 
-#ADD DEPENDENCIES
+#Add dependencies
 target_link_libraries(VulkanRenderer
         PRIVATE
             Vulkan::Vulkan
