@@ -1,11 +1,11 @@
-#SELECT VERSIONS AND INITIALIZE PROJECT/EXECD
+#Select versions and initialize project/exec
 cmake_minimum_required(VERSION 3.31)
 set(CMAKE_CXX_STANDARD 20)
 project(VulkanRenderer)
 include(FetchContent)
 add_executable(VulkanRenderer)
 
-#ADD SRC FILES
+#Add src files
 target_sources(VulkanRenderer
         PRIVATE
             main.cpp
