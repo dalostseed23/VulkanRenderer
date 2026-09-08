@@ -1,4 +1,6 @@
-#Build folders
+# Build folders
 cmake-build-debug/
 cmake-build-release/
+
+# Project folder
 .idea/
